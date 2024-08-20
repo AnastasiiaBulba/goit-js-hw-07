@@ -35,6 +35,9 @@ const galleryUp = images.reduce(
 
 gallery.insertAdjacentHTML('beforeend', galleryUp);
 
+// стилі зробила як в аналогічому блоці по CSS та HTML (портфоліо)
+// мінімальна кількість стилізації яку я зрозуміла, що треба добавити
+
 const style = document.createElement('style');
 style.textContent = `
 .gallery {
